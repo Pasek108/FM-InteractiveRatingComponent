@@ -73,6 +73,8 @@ button {
     width: 100%;
     text-transform: uppercase;
     letter-spacing: 0.125em;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
 
     &:hover {
       color: hsl(25, 97%, 53%);
