@@ -1,27 +1,45 @@
-# InteractiveRatingComponent
+# Frontend Mentor - Interactive rating component solution
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.7.
+This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Development server
+## Table of contents
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+  - [Built with](#built-with)
+- [Author](#author)
 
-## Code scaffolding
+## Overview
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### The challenge
 
-## Build
+Users should be able to:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Select and submit a number rating
+- See the "Thank you" card state after submitting a rating
 
-## Running unit tests
+### Screenshot
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![](./screenshot.jpg)
 
-## Running end-to-end tests
+### Links
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- Solution URL: [https://github.com/Pasek108/FM-InteractiveRatingComponent/](https://github.com/Pasek108/FM-InteractiveRatingComponent/)
+- Live Site URL: [https://pasek108.github.io/FM-InteractiveRatingComponent/](https://pasek108.github.io/FM-InteractiveRatingComponent/)
 
-## Further help
+## My process
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Built with
+
+- HTML 5
+- SCSS
+- Angular
+
+## Author
+
+- Website - [Artur Pas](https://pas-artur.000webhostapp.com)
+- Frontend Mentor - [@Pasek108](https://www.frontendmentor.io/profile/Pasek108)

@@ -1,0 +1,19 @@
+@mixin flex($direction: row, $align: center, $justify: center) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: $align;
+  justify-content: $justify;
+}
+
+.star-icon {
+  @include flex();
+  width: 3.25rem;
+  height: 3.25rem;
+  border-radius: 100%;
+  background: hsl(213, 19%, 18%);
+}
+
+.rating-buttons {
+  @include flex(row, center, space-between);
+  margin: 1.5rem 0;
+}

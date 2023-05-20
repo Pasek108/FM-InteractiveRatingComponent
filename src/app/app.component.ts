@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'InteractiveRatingComponent';
+  title: string = 'Frontend Mentor | Interactive rating component';
+  selectedRating: number | null = null;
+
+  handleSelectedRating(rating: number) {
+    this.selectedRating = rating;
+  }
 }
