@@ -7,13 +7,35 @@
 
 .star-icon {
   @include flex();
-  width: 3.25rem;
-  height: 3.25rem;
+  width: 3.125rem;
+  height: 3.125rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
   border-radius: 100%;
   background: hsl(213, 19%, 18%);
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 .rating-buttons {
   @include flex(row, center, space-between);
   margin: 1.5rem 0;
+}
+
+.submit {
+  width: 100%;
+  min-height: 3rem;
+  margin-top: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.125em;
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(216, 12%, 8%);
+
+  &:hover {
+    background-color: hsl(0, 0%, 100%);
+    font-weight: bold;
+  }
 }

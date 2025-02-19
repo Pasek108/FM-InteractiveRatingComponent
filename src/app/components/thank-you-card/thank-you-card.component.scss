@@ -5,9 +5,10 @@
   justify-content: $justify;
 }
 
-.thank-you-card {
+.thank-you-container {
   @include flex(column, center);
   text-align: center;
+  padding: 0.5rem 0
 }
 
 .rating {

@@ -1,5 +1,4 @@
-<div>
+<div class="card">
   <app-rating-card *ngIf="selectedRating == null" (ratingSelected)="handleSelectedRating($event)"></app-rating-card>
   <app-thank-you-card *ngIf="selectedRating != null" [selectedRating]="selectedRating"></app-thank-you-card>
 </div>
-

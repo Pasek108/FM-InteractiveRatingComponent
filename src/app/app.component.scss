@@ -1,1 +1,10 @@
-
+.card {
+  max-width: 26.5rem;
+  padding: 2rem;
+  border-radius: 2rem;
+  background: radial-gradient(
+    circle at top center,
+    hsl(213, 19%, 18%) 5%,
+    hsl(210, 21%, 11%) 100%
+  );
+}
